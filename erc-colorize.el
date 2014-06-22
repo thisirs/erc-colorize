@@ -23,6 +23,7 @@
 
 ;;; Code
 
+(require 'erc)
 (require 'ring)
 
 ;;;###autoload (autoload 'erc-colorize-mode "erc-colorize")
