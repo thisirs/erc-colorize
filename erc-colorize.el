@@ -25,6 +25,7 @@
 
 (require 'ring)
 
+;;;###autoload (autoload 'erc-colorize-mode "erc-colorize")
 (define-erc-module colorize nil
   "This module highlights messages of a user with the same face."
   ((add-hook 'erc-insert-modify-hook 'erc-colorize-message 'append)
