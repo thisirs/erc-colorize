@@ -4,7 +4,8 @@
 
 ;; Author: Sylvain Rousseau <thisirs at gmail dot com>
 ;; Maintainer: Sylvain Rousseau <thisirs at gmail dot com>
-;; Keywords:
+;; Keywords: erc convenience
+;; URL: https://github.com/thisirs/erc-colorize.git
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
