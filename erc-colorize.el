@@ -22,7 +22,7 @@
 
 ;;; Commentary:
 
-;;; Code
+;;; Code:
 
 (require 'erc)
 (require 'ring)
