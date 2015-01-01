@@ -1,6 +1,6 @@
 ;;; erc-colorize.el --- Per user colorization of whole message
 
-;; Copyright (C) 2014 Sylvain Rousseau
+;; Copyright (C) 2014-2015 Sylvain Rousseau
 
 ;; Author: Sylvain Rousseau <thisirs at gmail dot com>
 ;; Maintainer: Sylvain Rousseau <thisirs at gmail dot com>
