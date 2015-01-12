@@ -128,7 +128,7 @@ message coming from a user."
     (when match-face
       (erc-put-text-property
        (point-min) (point-max)
-       'font-lock-face match-face))))
+       'face match-face))))
 
 
 (provide 'erc-colorize)
