@@ -26,6 +26,7 @@
 
 (require 'erc)
 (require 'ring)
+(require 'erc-button)                   ; For erc-button-add-face
 
 ;;;###autoload (autoload 'erc-colorize-mode "erc-colorize")
 (define-erc-module colorize nil
@@ -127,9 +128,7 @@ message coming from a user."
                         (nth 0 (erc-parse-user nickuserhost))))
          (match-face (erc-colorize-color nickname)))
     (when match-face
-      (erc-put-text-property
-       (point-min) (point-max)
-       'face match-face))))
+      (erc-button-add-face (point-min) (point-max) match-face))))
 
 
 (provide 'erc-colorize)
