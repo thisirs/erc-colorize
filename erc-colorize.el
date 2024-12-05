@@ -121,8 +121,8 @@ used. If none, take the face of the least active user."
 (defun erc-colorize-message ()
   "Function used in `erc-insert-modify-hook' to apply the same face to a
 message coming from a user."
-  (erc-find-parsed-property)
-  (let* ((vector (erc-get-parsed-vector (point)))
+  (let* ((vector (erc-get-parsed-vector (or (erc-find-parsed-property)
+                                            (point))))
          (nickuserhost (erc-get-parsed-vector-nick vector))
          (nickname (and nickuserhost
                         (nth 0 (erc-parse-user nickuserhost))))
